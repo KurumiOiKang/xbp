@@ -2,22 +2,40 @@
 <html lang="jp">
 <head>
     <!-- ⑥↓タイトルを変えてみよう -->
-    <title>Kurumi's masterpiece </title>
+    <title>看板 </title>
     <!-- ⑤スタイルシートの設定をしよう -->
     <!-- h1.htmlからある行をコピペしてくればOK -->
     <link rel="stylesheet"href="./css/style.css"
 </head>
 <body>
-    <h1>Welcome to my page</h1>
-    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
+    <h1> <font color="8b008b">私が撮った看板の紹介</font></h1>
+    h2 {
+        position: relative;
+        padding: 1rem .5rem;
+      }
+      
+      h2:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        content: '';
+        background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+        background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+        background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+      }
+      
+      
+      
+   
+   
     <div>
-        hello<br>
+        
 
-         its Kurumi<br>
+         
 
-         <!-- ③↓に箇条書きをしてみよう -->
-
-         https://kuxbp.github.io/xbp/xbp2022/design_e12/01abouthtml/hp1.html<br>
+         
 
     </div>
 
@@ -44,7 +62,7 @@ how are you (*0_0*)
     </Marquee>
 <img src="./images/testimage.png"width="40%"><br>
 
-<h2><font color="9400D3">i am not ぺごっぱ</font></h2>
+<h2><font color="8b008b">i am not ぺごっぱ</font></h2>
 
 <h1><Marquee>(^^;)=3</Marquee><h1>
    <h1> <marquee scrollamount="2" truespeed>(^^;)=3</marquee><h1>
