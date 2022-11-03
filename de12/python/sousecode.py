@@ -16,7 +16,7 @@ def create_layout(cal_date):
     inner = []
     
     for week in weekday:
-        inner.append(sg.Text(week, size=(11,1), text_color='white', background_color='gray', justification='center'))
+        inner.append(sg.Text(week, size=(11,1), text_color='yellow', background_color='lightpink', justification='center'))
     layout.append(inner.copy())
 
     def date_judgement(i, day):
