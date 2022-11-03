@@ -8,7 +8,7 @@ sg.theme('LightBlue6')
 today = datetime.date.today()
 
 def create_layout(cal_date):
-    weekday = ['SUN','MON', 'TUE', 'WE', 'THU', 'FRI', 'SAT']  
+    weekday = ['SUN','MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']  
     cal = calendar.Calendar(firstweekday=6)
     days = cal.monthdatescalendar(cal_date.year, cal_date.month)
     layout = [[sg.Text(cal_date.year, font=(None, 13, 'bold'))],
